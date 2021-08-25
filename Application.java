@@ -12,7 +12,12 @@ public class Application {
 		smallBag<Item> smallBagItem = new smallBag<>();
 		smallBagItem.setitem(itemString);
 		
-		System.out.println(smallBagItem.getitem());
+		System.out.println(smallBagItem.getitem().gete());
+		
+		smallBagItem = new smallBag<>();
+		smallBagItem.setitem(itemInteger);
+		
+		System.out.println(smallBagItem.getitem().gete());
 		
 	}
 
